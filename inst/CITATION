@@ -1,0 +1,39 @@
+year <- 2023
+author_text <- "Sigma Research"
+pkg <- meta$Package
+title <- meta$Title
+version <- meta$Version
+author <- c(
+  person(
+    given = "Sigma",
+    family = "Research",
+    role = c("aut", "cre", "cph"),
+    email = "r.sigmaresearch100@gmail.com",
+    comment = c(ORCID = "0000-0000-0000-0000")
+  )
+)
+note <- sprintf(
+  "R package version %s",
+  meta$Version
+)
+url <- "https://github.com/sigmaresearch100/rProject"
+
+bibentry(
+  bibtype = "Manual",
+  author = author,
+  title = paste0(pkg, ":", " ", title),
+  year = year,
+  note = note,
+  textVersion = paste0(
+    author_text, " ",
+    "(", year, ")", ".", " ",
+    pkg, ":", " ", title, ".", " ",
+    note, ".", " ",
+    url
+  ),
+  header = paste(
+    "To cite",
+    pkg,
+    "in publications, please use:"
+  )
+)

@@ -1,0 +1,47 @@
+---
+title: "manSASInvariance: Longitudinal Measurement Invariance of the Social Axioms Survey"
+author: "Sigma Research"
+output: rmarkdown::html_vignette
+bibliography: "vignettes.bib"
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+nocite: |
+  @RCoreTeam-2023
+vignette: >
+  %\VignetteIndexEntry{manSASInvariance: Longitudinal Measurement Invariance of the Social Axioms Survey}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+<!-- badges: start -->
+[![Make Project](https://github.com/sigmaresearch100/manSASInvariance/actions/workflows/make.yml/badge.svg)](https://github.com/sigmaresearch100/manSASInvariance/actions/workflows/make.yml)
+[![R-CMD-check](https://github.com/sigmaresearch100/manSASInvariance/actions/workflows/check-full.yml/badge.svg)](https://github.com/sigmaresearch100/manSASInvariance/actions/workflows/check-full.yml)
+[![R Package Test Coverage](https://github.com/sigmaresearch100/manSASInvariance/actions/workflows/test-coverage.yml/badge.svg)](https://github.com/sigmaresearch100/manSASInvariance/actions/workflows/test-coverage.yml)
+[![Lint R Package](https://github.com/sigmaresearch100/manSASInvariance/actions/workflows/lint.yml/badge.svg)](https://github.com/sigmaresearch100/manSASInvariance/actions/workflows/lint.yml)
+[![Package Website (GitHub Pages)](https://github.com/sigmaresearch100/manSASInvariance/actions/workflows/pkgdown-gh-pages.yml/badge.svg)](https://github.com/sigmaresearch100/manSASInvariance/actions/workflows/pkgdown-gh-pages.yml)
+[![Compile LaTeX](https://github.com/sigmaresearch100/manSASInvariance/actions/workflows/latex.yml/badge.svg)](https://github.com/sigmaresearch100/manSASInvariance/actions/workflows/latex.yml)
+[![Shell Check](https://github.com/sigmaresearch100/manSASInvariance/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/sigmaresearch100/manSASInvariance/actions/workflows/shellcheck.yml)
+[![pages-build-deployment](https://github.com/sigmaresearch100/manSASInvariance/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/sigmaresearch100/manSASInvariance/actions/workflows/pages/pages-build-deployment)
+[![codecov](https://codecov.io/gh/sigmaresearch100/manSASInvariance/branch/main/graph/badge.svg?token=KVLUET3DJ6)](https://codecov.io/gh/sigmaresearch100/manSASInvariance)
+<!-- badges: end -->
+
+## Description
+
+Longitudinal measurement invariance of the Social Axioms Survey (SAS).
+
+## Installation
+
+You can install `manSASInvariance` from
+[GitHub](https://github.com/sigmaresearch100/manSASInvariance) with:
+
+```r
+if (!require("remotes")) install.packages("remotes")
+remotes::install_github("sigmaresearch100/manSASInvariance")
+```
+
+## Documentation
+
+See
+[GitHub Pages](https://sigmaresearch100.github.io/manSASInvariance/index.html)
+for package documentation.
+
+## References

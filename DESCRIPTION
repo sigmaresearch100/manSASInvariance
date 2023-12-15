@@ -1,0 +1,22 @@
+Package: manSASInvariance
+Title: Longitudinal Invariance of the Social Axioms Survey
+Version: 1.0.4.9000
+Authors@R: 
+    person(given = "Sigma",
+           family = "Research",
+           role = c("aut", "cre", "cph"),
+           email = "r.sigmaresearch100@gmail.com",
+           comment = c(ORCID = "0000-0000-0000-0000"))
+Description: Longitudinal invariance of the Social Axioms Survey (SAS).
+URL: https://github.com/sigmaresearch100/manSASInvariance, https://sigmaresearch100.github.io/manSASInvariance/
+BugReports: https://github.com/sigmaresearch100/manSASInvariance/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Depends: R (>= 3.5.0)
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat
+RoxygenNote: 7.2.3
